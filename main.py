@@ -87,11 +87,6 @@ num1= 64*3
 # Check if num1 is different from num2 and store the result of that comparison in a variable called my_bool.
 
 
-
-
-
-
-
 ##############################logical operators##################################################
 
 
@@ -138,12 +133,22 @@ print(my_bool)
 # "When something is important enough, you do it even if the odds are against you" - Elon Musk
 
 
-
-
-
 ########################################decision making in python#####################################
 
+# if 5==2:
+#   print('it is correct')
+# else:
+#   print('it is not correct')
 
+pet='rabbit'
+if pet=='cat':
+  print('you have a cat')
+elif pet=='dog':
+  print('you have a dog')
+elif pet=='fish':
+  print('you have a fish')
+else:
+  print('i dont know what pet you have')
 
 # Decision Making Practice #1
 # Using the variables num1 and num2, which are fed with user input (just like in the provided code), create a flow control structure that compares the values of the variables, and returns a result according to the case:
